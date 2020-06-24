@@ -1,0 +1,113 @@
+@media (max-width:1000px) {
+    /*content 1*/
+    .content-one{
+    background-size: cover;
+    background-position: bottom;
+  	}
+
+	.content-one-logo img{
+		height: 130px;
+	}
+
+	.text-heading h1 {
+    	font-size: 15px;
+  	}
+  
+  	.text-heading h2 {
+    	font-size: 18px;
+  	}
+
+  	/*content 2*/
+  	.message{
+  		width: 100%;
+  		display: block;
+  		padding: auto;
+  		margin: auto;
+  	}
+
+  	.text-message{
+  		width: 80%;
+  	}
+
+  	.text-message h1{
+  		font-size: 30px;
+  	}
+
+  	.text-message p{
+  		font-size: 20px;
+  	}
+
+  	/*footer*/
+  	footer{
+    	margin-top: 800px;
+        text-align: center;
+    }
+}
+
+@media (max-width:670px){
+    .header-right{
+    	display:none;
+  	}
+
+  	/*content 1*/
+  	.content-one{
+    background-size: cover;
+    background-position: bottom;
+  	}
+  
+	.content-one-logo img{
+		height: 100px;
+	}
+
+	.text-heading h1 {
+    	font-size: 24px;
+    	line-height: 36px;
+  	}
+  
+  	.text-heading h2 {
+    	font-size: 14px;
+   		line-height: 20px;
+  	}
+
+  	/*content 2*/
+  	.content-two-logo img{
+  		height: 100px;
+  	}
+
+  	.message{
+  		width: 100%;
+  	}
+
+  	.message img{
+  		width: 75px;
+  		height: 75px;
+  	}
+
+  	.text-message{
+  		width: 300px;
+  		height: 175px;
+  	}
+
+  	.text-message h1{
+		font-size: 25px;
+	}
+
+	.text-message p{
+		font-size: 15px;
+	}
+
+  	/*footer*/
+    footer{
+    	margin-top: 700px;
+        text-align: center;
+    }
+
+    .footer-right li{
+    	font-size: 15px;
+    }
+
+    footer p{
+		font-size: 15px;
+    }
+    
+}
