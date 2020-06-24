@@ -1,0 +1,208 @@
+.container {
+	max-width: 1170px;
+    width: 100%;
+    padding:0 15px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header {
+    background-color: rgba(49, 175, 87, 1);
+    height:70px;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    height:70px;
+    padding:5px 25px;
+}
+
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color:white;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+}
+
+
+
+/*CONTENT 1*/
+.content-one{
+	padding: 50px 0 50px 0;
+	background-image: url('bg1 logo.png');
+	background-size: cover;
+	background-position: bottom;
+	font-style: italic;
+	text-align: center;
+}
+
+.content-one-logo img{
+	width: 50%;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: block;
+}
+
+.text-heading h1{
+	font-size: 48px;
+	margin-bottom: 0;
+
+}
+
+.text-heading h2{
+	font-size: 36px;
+	margin-top: 0;
+
+}
+
+/*CONTENT 2*/
+.content-two{
+	padding: 25px 0 100px 0;
+	font-style: italic;
+	text-align: center;
+	background-color: white;
+	background-size: cover;
+}
+
+.content-two-logo img{
+	width:40%;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	padding-top: 0;
+	margin-top: 0;
+	display: block;
+}
+
+.message{
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+}
+
+.message img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 0 15px;
+
+
+}
+
+.text-message{
+	background-color: #d3ebde;
+	float: left;
+	border: 2px solid black;
+	width: 400px;
+	height: 200px;
+	border-radius: 45px;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-right: 0px;
+}
+
+.text-message h1{
+	font-size: 40px;
+	text-align: justify;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+
+}
+
+.text-message p{
+	font-size: 25px;
+	text-align: justify;
+	padding: 0 15px;
+	margin:0;
+}
+/*CONTENT 3*/
+
+/*FOOTER*/
+/*footer {
+    background-color:rgba(49, 175, 87, 1);
+    height:120px;
+}*/
+footer{
+	background-color:rgba(49, 175, 87, 1);
+	background-size: cover;
+	margin-top: 350px;
+}
+
+footer img {
+    height: 110px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+.footer-right a:hover {
+    color:white;
+}
+.footer-right {
+    padding: 0 25px;
+    float:right;
+    
+}
+.footer-right li {
+    transition: all 0.5s;
+    line-height: 30px;
+    text-align: right;
+    display:block;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-right a {
+    color: black;
+   
+}
+footer p {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+
+
